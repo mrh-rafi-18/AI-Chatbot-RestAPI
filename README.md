@@ -25,16 +25,18 @@ Example response:
 }
 
 ## 🛠️ Run Locally
-1. Create `.env` and add your Groq key:
+1. Download the zip file
+
+2. Create `.env` and add your Groq key:
    GROQ_API_KEY=your_groq_api_key_here
 
-2. Create a virtual environment. And activate it.
+3. Create a virtual environment. And activate it.
 
-2. Install dependencies:
+4. Install dependencies:
    pip install -r requirements.txt
 
-3. Start the server:
+5. Start the server:
    uvicorn app.main:app --reload
 
-4. Open in browser:
+6. Open in browser:
    http://127.0.0.1:8000/docs
